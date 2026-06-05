@@ -36,15 +36,30 @@ body {
   margin: 15px auto;
 }
 
+/* BARRA DE NAVEGACION */
+nav {
+  background: #344933;
+  padding: 10%;
+}
+
+/* =========================
+    SECCION DE BIENVENIDA
+  ========================= */
+
+.seccion-bienvenida {
+  background: #b9bdc4;
+  color: rgb(10, 10, 10);
+}
 
 /* =========================
    CABECERA
 ========================= */
 
 .cabecera {
-  background: #fffbb9;
+  background: #64623a;
   border: 1px solid #999999;
   padding: 10px 5px;
+  /
 }
 
 .cabecera h1 {
@@ -57,7 +72,7 @@ body {
 ========================= */
 
 .menu {
-  background: #ccc;
+  background: #c2b8b8;
   padding: 1px;
   text-align: left;
 }
@@ -132,8 +147,11 @@ time {
   clear: both;
   padding: 20px;
   background: #2d3436;
-  color: #fff;
+  color: #fff;  
 }
+
+footer {
+  background-color:#465e46 !important;}
 
 
 /* =========================

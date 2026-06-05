@@ -2,104 +2,80 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Mi primera página Web" />
-    <title>Mi Blog</title>
+    <meta name="description" content="Tienda Online" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Tienda Online Basica</title>
     <link rel="stylesheet" href="css/estilos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   </head>
 
   <body>
-    <div class="agrupar">
-      <!-- ENCABEZADO -->
-      <header class="cabecera">
-        <h1>Mi Blog</h1>
-      </header>
 
-      <!-- MENÚ DE NAVEGACIÓN -->
-      <nav class="menu">
-        <ul>
-          <li><a href="index.html">Principal</a></li>
-          <li><a href="ayuda.html">Ayuda</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
+    <!-- BARRA DE NAVEGACIÓN CON BOOTSTRAP -->
+    <nav class="navbar navbar-dark" 
+        <a class="navbar-brand" href="index.html">Tecnohogar</a>
+        <div>
+          <a href="index.html" class="text-white me-3">Inicio</a>
+          <a href="ayuda.html" class="text-white me-3">Ayuda</a>
+          <a href="contacto.html" class="text-white">Contacto</a>
+        </div>
+      </div>
+    </nav>
 
-      <!-- CONTENIDO PRINCIPAL -->
-      <section class="seccion">
-        <!-- ARTÍCULO 1 -->
-        <article>
-          <div class="titulos">
-            <h2>Título del primer artículo</h2>
-            <h3>Subtítulo del artículo</h3>
+    <!-- SECCIÓN HERO (BIENVENIDA) -->
+    <section class="text-center py-5 seccion-bienvenida">
+      <div class="container">
+        <h1 class="fw-bold">Bienvenido a Tecnohogar</h1>
+        <p class="lead">Lo que tu hogar necesita al alcance de tus manos</p>
+        <p>Aquí podrás construir poco a poco una experiencia de compra sencilla, clara y fácil de entender.</p>
+        <a href="contacto.html" class="btn btn-primary">Contactar la tienda</a>
+      </div>
+    </section>
+
+    <!-- SECCIÓN DE TARJETAS INFORMATIVAS -->
+    <section class="container my-5">
+      <h2 class="text-center mb-4">Información de la tienda</h2>
+      <div class="row">
+
+        <!-- TARJETA 1 -->
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title">Productos variados</h5>
+              <p class="card-text">Más adelante podrás agregar un catálogo con productos, precios e imágenes.</p>
+            </div>
           </div>
+        </div>
 
-          <time datetime="2020-04-07">
-            Publicado miércoles 7 de abril de 2020
-          </time>
-
-          <!-- IMAGEN -->
-          <img src="img/logo_sena.png" alt="Logo del SENA" />
-
-          <p>
-            Este es un ejemplo de contenido del artículo principal. Aquí se
-            explica información relevante del sitio.
-          </p>
-
-          <footer>
-            <p>Comentarios (0)</p>
-          </footer>
-
-          <!-- ENLACE EXTERNO -->
-          <a href="https://www.sena.edu.co" target="_blank"> Visitar SENA </a>
-
-          <!-- VIDEO -->
-          <video
-            src="video/video_guille.mp4"
-            controls
-            width="640"
-            height="480"
-          ></video>
-        </article>
-
-        <!-- ARTÍCULO 2 -->
-        <article>
-          <div class="titulos">
-            <h2>Título del segundo artículo</h2>
-            <h3>Subtítulo del artículo</h3>
+        <!-- TARJETA 2 -->
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title">Compra sencilla</h5>
+              <p class="card-text">La página está preparada para practicar componentes básicos de una tienda online.</p>
+            </div>
           </div>
+        </div>
 
-          <time datetime="2026-04-27">
-            Publicado lunes 27 de abril de 2026
-          </time>
+        <!-- TARJETA 3 -->
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title">Atención al cliente</h5>
+              <p class="card-text">Los visitantes pueden ir a la página de contacto para solicitar información.</p>
+            </div>
+          </div>
+        </div>
 
-          <p class="green">
-            Segundo contenido del blog con información adicional.
-          </p>
+      </div>
+    </section>
 
-          <footer>
-            <p>Comentarios (10)</p>
-          </footer>
+    <!-- PIE DE PÁGINA -->
+    <footer class="text-white text-center py-3">
+      <p class="mb-0">Tecnohogar ¡Lo que necesitas para tu hogar!</p>
+    </footer>
 
-          <a
-            href="http://oferta.senasofiaplus.edu.co/sofia-oferta/"
-            target="_blank"
-          >
-            Visitar Sofía Plus
-          </a>
-        </article>
-      </section>
-
-      <!-- BARRA LATERAL -->
-      <aside class="columna">
-        <blockquote>Mensaje 1</blockquote>
-
-        <blockquote>Mensaje 2</blockquote>
-      </aside>
-
-      <!-- PIE DE PÁGINA -->
-      <footer class="pie">
-        Derechos reservados Guillermo Bejarano Reyes 2026
-      </footer>
-    </div>
     <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
