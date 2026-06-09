@@ -13,16 +13,18 @@ if (formulario) {
 
         const nombre = document.getElementById("nombre").value;
         const correo = document.getElementById("correo").value;
+        const asunto= document.getElementById("asunto").value;
         const mensaje = document.getElementById("mensaje").value;
 
         console.log("Nombre:", nombre);
         console.log("Correo:", correo);
+        console.log("Asunto:", asunto);
         console.log("Mensaje:", mensaje);
 
         const respuesta = document.getElementById("respuesta");
 
         // Validación
-        if (nombre === "" || correo === "" || mensaje === "") {
+        if (nombre === "" || correo === "" || asunto === "" || mensaje === "") {
             respuesta.textContent = "Todos los campos son obligatorios.";
             return;
         }
