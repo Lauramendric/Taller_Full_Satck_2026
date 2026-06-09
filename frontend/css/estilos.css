@@ -32,23 +32,28 @@ body {
 
 .agrupar {
   width: 960px;
-  border: 10px solid rgb(211, 15, 15);
+  border: 10px solid rgb(196, 202, 198);
   margin: 15px auto;
 }
-
-/* BARRA DE NAVEGACION */
-nav {
-  background: #344933;
-  padding: 10%;
+/* BARRA DE NAVEGACION VIEJA */
+nav.menu {
+  background: #7c7f7c;
+  padding: 1px;
 }
+
+/* NAVBAR BOOTSTRAP */
+nav.navbar {
+  background-color: #334933 !important;
+}
+
 
 /* =========================
     SECCION DE BIENVENIDA
   ========================= */
 
 .seccion-bienvenida {
-  background: #b9bdc4;
-  color: rgb(10, 10, 10);
+  background: #b3b6bd;
+  color: rgb(14, 15, 15);
 }
 
 /* =========================
@@ -56,7 +61,7 @@ nav {
 ========================= */
 
 .cabecera {
-  background: #64623a;
+  background: #aeac75;
   border: 1px solid #999999;
   padding: 10px 5px;
   /
@@ -77,6 +82,7 @@ nav {
   text-align: left;
 }
 
+
 .menu li {
   list-style: none;
   padding: 5px;
@@ -86,11 +92,11 @@ nav {
 
 .menu a {
   text-decoration: none;
-  color: black;
+  color: rgb(49, 46, 46);
 }
 
 .menu a:hover {
-  color: blue;
+  color: rgb(110, 110, 219);
 }
 
 
@@ -117,7 +123,7 @@ article footer {
 }
 
 time {
-  color: #999;
+  color: #907878;
 }
 
 
@@ -132,9 +138,9 @@ time {
 }
 
 .columna blockquote {
-  border: 1px solid black;
+  border: 1px solid rgb(167, 141, 141);
   padding: 40px;
-  background: #fffbb9;
+  background: #bbc4bb;
   margin-bottom: 60px;
 }
 
@@ -143,15 +149,14 @@ time {
    PIE DE PÁGINA
 ========================= */
 
-.pie {
-  clear: both;
+footer.pie {
+  text-align: center;
   padding: 20px;
-  background: #2d3436;
-  color: #fff;  
-}
+  background-color: #334933 !important;
+  color: white;
+} 
 
-footer {
-  background-color:#465e46 !important;}
+
 
 
 /* =========================
@@ -163,4 +168,5 @@ img {
   display: block;
   margin: 20px auto;
 }
+
 
