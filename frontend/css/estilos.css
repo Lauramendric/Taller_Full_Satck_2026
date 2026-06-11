@@ -157,8 +157,6 @@ footer.pie {
 } 
 
 
-
-
 /* =========================
    IMÁGENES
 ========================= */
@@ -169,4 +167,10 @@ img {
   margin: 20px auto;
 }
 
-
+/* Imágenes de las tarjetas de productos */
+.card-img-top {
+    height: 200px;
+    object-fit: contain;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
