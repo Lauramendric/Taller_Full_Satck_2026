@@ -38,6 +38,7 @@ if (formulario) {
             body: JSON.stringify({
                 nombre: nombre,
                 correo: correo,
+                asunto: asunto,
                 mensaje: mensaje
             })
         })
